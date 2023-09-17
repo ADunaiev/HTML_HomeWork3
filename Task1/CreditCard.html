@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <link rel="stylesheet" href="CardStyle.css">
+</head>
+<body>
+    <main>
+
+        <div class="card-header">
+            CREDIT CARD DETAILS
+            <div class="card-body">
+                <label class="card-number">
+                    Card Number <br>
+                    <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" placeholder="XXXX XXXX XXXX XXXX">
+                </label>
+                <label class="card-name">
+                    Name On Card <br>
+                    <input type="text" inputmode="latin-name" placeholder="Name Surname">
+                </label>
+                <div>
+                    <label class="card-date dis-inb">
+                        Expiry Date <br>
+                        <input class="dis-inb short" type="text" inputmode="numeric" placeholder="02">
+                        <input class="dis-inb short" type="text" inputmode="numeric" placeholder="2017">
+                    </label>
+                    <label class="card-cvv dis-inb">
+                        CVV / CVN <br>
+                        <input class="short" type="text" inputmode="numeric" placeholder="***">
+                    </label>
+                </div>
+                <div class="card-pict">
+                    <img src="moon_flag.png" alt="pict1">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
