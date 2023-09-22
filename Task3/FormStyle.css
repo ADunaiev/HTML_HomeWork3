@@ -1,0 +1,196 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 3vw;
+  padding: 0;
+}
+.bottom-body {
+  text-align: right;
+}
+button {
+  background-color: #008a8c;
+  border: none;
+  color: #efefef;
+  text-align: center;
+  vertical-align: middle;
+}
+.checkboxes {
+  display: inline-block;
+  height: 3vw;
+  margin: 3vh 0;
+  position: relative;
+  width: 80vw;
+}
+.checkboxes input {
+  height: 1.5vw;
+  width: 1.5vw;
+}
+.checkboxes label {
+  display: block;
+  font-size: 1.5vw;
+  margin: 1.5vh 0;
+}
+
+h2 {
+  margin-bottom: 5vh;
+}
+hr {
+  margin: 6vh 0;
+}
+img {
+  display: inline-block;
+  height: 2.5vw;
+  margin-right: 2vw;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5vw;
+}
+
+input, select {
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 1.6vw;
+  height: 3vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  button {
+    font-size: 1.6vw;
+    padding: 1.6vh 6vw;
+
+  }
+  .checkboxes label {
+    font-size: 12px;
+  }
+
+  .data-container {
+    margin-bottom: 3vh;
+    margin-right: 8vw;
+    text-align: right;
+  }
+
+  input, select {
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    vertical-align: middle;
+    width: 78vw;
+  }
+
+  .personal-data {
+    width: 95vw;
+  }
+  .personal-data .data-container {
+    margin-bottom: 0;
+  }
+
+  .personal-data .data-container .short-input {
+    width: vw;
+  }
+
+  .registration-data {
+    display: inline-block;
+    height: 35vh;
+    margin-bottom: 3vh;
+    position: relative;
+    vertical-align: middle;
+    width: 95vw;
+  }
+
+  .short-input {
+    margin-right: 0;
+    margin-bottom: 3vh;
+    position: relative;
+    width: 78vw;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  button {
+    font-size: 1.6vw;
+    padding: 1.6vh 6vw;
+
+  }
+
+  .data-container {
+    margin-bottom: 3vh;
+  }
+
+  input, select {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 81vw;
+  }
+
+  .personal-data {
+    width: 100vw;
+  }
+
+  .personal-data .data-container .short-input {
+    width: 42vw;
+  }
+
+  .registration-data {
+    display: inline-block;
+    height: 38vh;
+    position: relative;
+    vertical-align: middle;
+    width: 90vw;
+  }
+
+  .short-input {
+    margin-right: 2vw;
+    position: relative;
+    width: 39vw;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+
+  button {
+    font-size: 1.4vw;
+    padding: 1vh 5vw;
+  }
+
+  .data-container {
+    margin-bottom: 10vh;
+  }
+
+  input, select {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 41vw;
+  }
+  .personal-data {
+    display: inline-block;
+    height: 55vh;
+    position: absolute;
+    vertical-align: middle;
+    width: 46vw;
+  }
+
+  .personal-data .data-container .short-input {
+    width: 19vw;
+  }
+
+  .registration-data {
+    display: inline-block;
+    height: 55vh;
+    position: relative;
+    vertical-align: middle;
+    width: 52vw;
+  }
+  .short-input {
+    margin-right: 2vw;
+    position: relative;
+    width: 19vw;
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FormStyle.css">
+</head>
+<body>
+  <div class="registration-data">
+    <h2>Registration form</h2>
+    <div class="data-container">
+      <img src="username.png" alt="username">
+      <input type="text" inputmode="latin" placeholder="Username">
+    </div>
+    <div class="data-container">
+      <img src="email.png" alt="email">
+      <input type="text" inputmode="email" placeholder="Email address">
+    </div>
+    <div class="data-container">
+      <img src="pswd.png" alt="password">
+      <input class="short-input" type="password" placeholder="Password">
+      <input class="short-input" type="password" placeholder="Confirm password">
+    </div>
+  </div>
+
+  <div class="personal-data">
+    <h2>Personal details</h2>
+
+    <div class="data-container">
+      <input class="short-input" inputmode="latin-name" type="text" placeholder="First name">
+      <input class="short-input" inputmode="latin-name" type="text" placeholder="Last name">
+    </div>
+
+    <div class="data-container">
+      <select name="sex" id="sex" class="short-input">
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+        <option value="R">Refusal</option>
+      </select>
+      <input class="short-input" inputmode="latin-name" type="date" placeholder="mm/dd/yyyy" lang="en">
+    </div>   
+  </div>
+
+  <div class="checkboxes">
+    <label>
+      <input type="checkbox">
+      I want to receive news and special offers
+    </label>
+
+    <label>
+      <input type="checkbox">
+      I'm agree with the Terns and Conditions
+    </label>
+
+  </div>
+
+  <hr>
+  <div class="bottom-body">
+    <button name="submit" type="button">SUBMIT</button>
+  </div>
+  
+
+</body>
+</html>
